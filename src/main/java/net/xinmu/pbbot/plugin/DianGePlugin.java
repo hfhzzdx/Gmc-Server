@@ -670,8 +670,8 @@ public class DianGePlugin extends BotPlugin {
 
     public JSONObject requestApi30(String msg) {
         // 在平台申请的APP_ID 详见 http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer
-        final String APP_ID = "20220316001127366";
-        final String SECURITY_KEY = "WROkA1V1iKmrHJujyklf";
+        final String APP_ID = "你的appid";
+        final String SECURITY_KEY = "你的密钥";
         TransApi api = new TransApi(APP_ID, SECURITY_KEY);
         String[] s = msg.split(" ");
         String code = s[s.length - 1];
